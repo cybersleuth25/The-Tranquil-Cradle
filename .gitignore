@@ -1,2 +1,3 @@
 *.MP4
 *.mp4
+!assets/video/hero.mp4

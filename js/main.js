@@ -52,45 +52,7 @@ function initScrollZoomVideo() {
 
   if (!heroWrapper || !heroVideo) return;
 
-  // Cut the video to play only between 5s and 30s
-  if (heroVideo.tagName === 'VIDEO') {
-    let hasSetStartTime = false;
-    const START_TIME = 5;
-    const END_TIME = 30;
 
-    const setStartTime = () => {
-      if (hasSetStartTime) return;
-      const duration = heroVideo.duration;
-      if (!isNaN(duration) && isFinite(duration) && duration > 0) {
-        heroVideo.currentTime = START_TIME;
-        hasSetStartTime = true;
-      }
-    };
-
-    // If metadata is already loaded, set current time immediately. Otherwise, listen to event.
-    if (heroVideo.readyState >= 1) {
-      setStartTime();
-    } else {
-      heroVideo.addEventListener('loadedmetadata', setStartTime);
-    }
-
-    // Also trigger when video starts playing (handles browser autoplay timing)
-    heroVideo.addEventListener('playing', setStartTime);
-
-    heroVideo.play().catch(() => {
-      // Autoplay blocked — that's fine, we'll show the fallback image
-      console.log('Video autoplay blocked, showing fallback image.');
-    });
-
-    // Detect when video reaches 20s or loops, force it back to 8s
-    heroVideo.addEventListener('timeupdate', () => {
-      // If we already set the start time and playhead goes past END_TIME or resets near 0
-      if (hasSetStartTime && (heroVideo.currentTime >= END_TIME || heroVideo.currentTime < START_TIME - 0.5)) {
-        heroVideo.currentTime = START_TIME;
-        heroVideo.play();
-      }
-    });
-  }
 
   // Initial call to set correct zoom state on load
   updateHeroZoom(heroWrapper, heroVideo, heroContent, heroOverlay, scrollIndicator);

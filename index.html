@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tranquil Cradle — Luxury Wilderness Eco-Retreat</title>
+  <meta name="description"
+    content="Nestled in the lush coffee estates and dense forests of Chikkamagaluru, Karnataka. Discover eco-luxury stays where serenity meets wilderness. Coming soon.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="Photos/Tranquil logo.jpeg">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-content">
+      <img src="Photos/Tranquil logo.jpeg" alt="The Tranquil Cradle Logo" class="preloader-logo">
+      <div class="preloader-text">THE TRANQUIL CRADLE</div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-brand">
+        <img src="Photos/Tranquil logo.jpeg" alt="The Tranquil Cradle Logo" class="nav-brand-logo">
+        <div class="nav-brand-info">
+          <span class="nav-brand-text">The Tranquil Cradle</span>
+          <span class="nav-brand-location"><span class="nav-brand-line"></span>CHIKKAMAGALŪRU • KARNATAKA</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">The Retreat</a></li>
+        <li><a href="#rooms">Sanctuary</a></li>
+        <li><a href="#experience">Experiences</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Stay In Touch</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section — Editorial Split Layout -->
+  <div class="hero-wrapper" id="hero">
+    <section class="hero">
+      <div class="hero-video-container">
+        <video class="hero-video" autoplay loop muted playsinline>
+          <source src="Videos/DJI_20260325094135_0034_D.MP4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-vignette"></div>
+      </div>
+
+      <!-- Editorial Content — Split Layout -->
+      <div class="hero-editorial">
+        <!-- Left: Subtitle + CTA -->
+        <div class="hero-left-info">
+          <p class="hero-subtitle">An Eco-Retreat Nestled Deep<br>in the Coffee Forests</p>
+        </div>
+
+        <!-- Right: Title -->
+        <div class="hero-right-title">
+          <h1 class="hero-title">
+            <span class="hero-title-line">Where</span>
+            <span class="hero-title-line hero-title-accent">Luxury</span>
+            <span class="hero-title-line">Meets</span>
+            <span class="hero-title-line hero-title-italic"><em>Wilderness</em></span>
+          </h1>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="hero-bottom-bar">
+        <div class="hero-bottom-left">
+          <span class="hero-altitude"><i class="fa-solid fa-mountain"></i> 3,800 FT</span>
+        </div>
+        <div class="hero-scroll-indicator">
+          <div class="scroll-mouse"></div>
+          <span>Scroll to Explore</span>
+          <div class="scroll-line"></div>
+        </div>
+        <div class="hero-bottom-right">
+          <span class="hero-coords">13.31° N, 75.77° E</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- The Retreat (About) Section -->
+  <section id="about" class="about-section" style="background: var(--color-bg-section);">
+    <div class="container">
+      <div class="about-grid"
+        style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); align-items: center;">
+        <div class="about-content reveal" style="padding: 0;">
+          <div class="section-label">The Retreat</div>
+          <h2 class="section-title">Built by hand,<br>embraced by forest.</h2>
+          <div style="width: 40px; height: 1px; background: var(--color-accent); margin: var(--space-md) 0;"></div>
+          <p class="about-text"
+            style="color: var(--color-text-muted); line-height: 1.9; margin-bottom: var(--space-sm);">
+            This isn't a typical resort. It’s a vision realized over years of careful planning, designed to preserve the
+            wild integrity of the Western Ghats. We built The Tranquil Cradle with deep respect for the land, using
+            minimal footprint structures and local laterite earth.
+          </p>
+          <p class="about-text"
+            style="color: var(--color-text-muted); line-height: 1.9; margin-bottom: var(--space-xl);">
+            Surrounded by ancient trees and active coffee plantations, the property offers a rare kind of isolation.
+            Here, comfort is defined by absolute quiet, misty mornings, and an unfiltered connection to an ecosystem
+            much older than us.
+          </p>
+          <div class="about-stats"
+            style="display: flex; gap: var(--space-xl); border-top: 1px solid var(--color-border); padding-top: var(--space-md);">
+            <div class="stat-item" style="text-align: left;">
+              <span class="stat-number"
+                style="font-family: var(--font-display); font-size: 2.5rem; color: var(--color-text); display: block; line-height: 1;">15</span>
+              <span class="stat-label"
+                style="font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-text-dim); display: block; margin-top: 0.5rem;">Forest
+                Acres</span>
+            </div>
+            <div class="stat-item" style="text-align: left;">
+              <span class="stat-number"
+                style="font-family: var(--font-display); font-size: 2.5rem; color: var(--color-text); display: block; line-height: 1;">6</span>
+              <span class="stat-label"
+                style="font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-text-dim); display: block; margin-top: 0.5rem;">Sanctuaries</span>
+            </div>
+            <div class="stat-item" style="text-align: left;">
+              <span class="stat-number"
+                style="font-family: var(--font-display); font-size: 2.5rem; color: var(--color-text); display: block; line-height: 1;">3800</span>
+              <span class="stat-label"
+                style="font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-text-dim); display: block; margin-top: 0.5rem;">Feet
+                Elevation</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image-wrapper reveal reveal-delay-2"
+          style="border-radius: 0; aspect-ratio: 4/5; overflow: hidden;">
+          <img src="Photos/DJI_20260325101640_0053_D.JPG" alt="The Tranquil Cradle forest estate view" loading="lazy"
+            style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sanctuary (Rooms) Section -->
+  <section id="rooms" class="rooms-section" style="background: var(--color-bg-rooms);">
+    <div class="container">
+      <div class="rooms-header reveal" style="text-align: left; margin-bottom: var(--space-2xl);">
+        <div class="section-label">Your Sanctuary</div>
+        <h2 class="section-title">Architectural quiet</h2>
+      </div>
+
+      <div class="rooms-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-lg);">
+
+        <!-- Room 1 -->
+        <div class="room-card reveal"
+          style="border-radius: 0; background: var(--color-bg-card); border: 1px solid var(--color-border); box-shadow: none; overflow: hidden; transition: border-color var(--transition-fast);">
+          <div class="room-card-image" style="aspect-ratio: 4/5; overflow: hidden;">
+            <img src="Photos/DJI_20260325101645_0054_D.JPG" alt="The Glass A-Frame loft suite" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="room-card-content" style="padding: var(--space-lg);">
+            <div
+              style="font-size: 0.65rem; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem; font-weight: 500;">
+              Signature</div>
+            <h3 class="room-card-name"
+              style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--color-text); margin-bottom: var(--space-sm);">
+              The Glass A-Frame</h3>
+            <p class="room-card-desc"
+              style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-lg);">
+              An imposing structural facade looking directly into the canopy. Features a timber lower level and an
+              elevated loft.</p>
+            <div style="color: var(--color-text); font-family: var(--font-display); font-size: 1.25rem;">₹28,000 <span
+                style="font-size: 0.8rem; font-family: var(--font-body); color: var(--color-text-dim); letter-spacing: 0.05em;">/
+                NIGHT</span></div>
+          </div>
+        </div>
+
+        <!-- Room 2 -->
+        <div class="room-card reveal reveal-delay-1"
+          style="border-radius: 0; background: var(--color-bg-card); border: 1px solid var(--color-border); box-shadow: none; overflow: hidden; transition: border-color var(--transition-fast);">
+          <div class="room-card-image" style="aspect-ratio: 4/5; overflow: hidden;">
+            <img src="Photos/DJI_20260325101633_0050_D.JPG" alt="Forest Canopy suite" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="room-card-content" style="padding: var(--space-lg);">
+            <div
+              style="font-size: 0.65rem; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem; font-weight: 500;">
+              Elevated</div>
+            <h3 class="room-card-name"
+              style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--color-text); margin-bottom: var(--space-sm);">
+              The Canopy Chalet</h3>
+            <p class="room-card-desc"
+              style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-lg);">
+              Built on structural steel stilts aligning the living space directly with the upper branches of ancient
+              forest trees.</p>
+            <div style="color: var(--color-text); font-family: var(--font-display); font-size: 1.25rem;">₹22,000 <span
+                style="font-size: 0.8rem; font-family: var(--font-body); color: var(--color-text-dim); letter-spacing: 0.05em;">/
+                NIGHT</span></div>
+          </div>
+        </div>
+
+        <!-- Room 3 -->
+        <div class="room-card reveal reveal-delay-2"
+          style="border-radius: 0; background: var(--color-bg-card); border: 1px solid var(--color-border); box-shadow: none; overflow: hidden; transition: border-color var(--transition-fast);">
+          <div class="room-card-image" style="aspect-ratio: 4/5; overflow: hidden;">
+            <img src="Photos/DJI_20260325101634_0051_D.JPG" alt="Glade Villa suite" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="room-card-content" style="padding: var(--space-lg);">
+            <div
+              style="font-size: 0.65rem; color: var(--color-accent); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem; font-weight: 500;">
+              Secluded</div>
+            <h3 class="room-card-name"
+              style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--color-text); margin-bottom: var(--space-sm);">
+              The Forest Glade</h3>
+            <p class="room-card-desc"
+              style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-lg);">
+              Tucked into the lower valleys among dense ferns and coffee shrubs, featuring raw terracotta walls and
+              absolute privacy.</p>
+            <div style="color: var(--color-text); font-family: var(--font-display); font-size: 1.25rem;">₹18,000 <span
+                style="font-size: 0.8rem; font-family: var(--font-body); color: var(--color-text-dim); letter-spacing: 0.05em;">/
+                NIGHT</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Experience Section -->
+  <section id="experience" class="experience-section"
+    style="background: url('Photos/DJI_20260325101635_0052_D.JPG') center/cover no-repeat; position: relative;">
+    <div style="position: absolute; inset: 0; background: var(--color-overlay-heavy); z-index: 1;"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="experience-header reveal" style="text-align: left; margin-bottom: var(--space-2xl);">
+        <div class="section-label">Experiences</div>
+        <h2 class="section-title">The pace of the forest</h2>
+      </div>
+
+      <div class="experience-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-xl);">
+
+        <div class="experience-item reveal"
+          style="border-top: 1px solid var(--color-border-exp); padding-top: var(--space-md);">
+          <div style="font-family: var(--font-display); font-size: 3rem; color: var(--color-text-dim); line-height: 1;">
+            01</div>
+          <h3
+            style="font-family: var(--font-body); font-size: 1rem; font-weight: 500; color: var(--color-text); margin: var(--space-sm) 0 0.5rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            Estate Trails</h3>
+          <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.8;">Walk the winding laterite
+            trails through blooming coffee bushes.<br>A raw exploration of the land.</p>
+        </div>
+
+        <div class="experience-item reveal reveal-delay-1"
+          style="border-top: 1px solid var(--color-border-exp); padding-top: var(--space-md);">
+          <div style="font-family: var(--font-display); font-size: 3rem; color: var(--color-text-dim); line-height: 1;">
+            02</div>
+          <h3
+            style="font-family: var(--font-body); font-size: 1rem; font-weight: 500; color: var(--color-text); margin: var(--space-sm) 0 0.5rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            Canopy Observation</h3>
+          <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.8;">Ascend to the highest
+            viewpoints to witness the misty blue hills.<br>Observe native birdlife at eye level.</p>
+        </div>
+
+        <div class="experience-item reveal"
+          style="border-top: 1px solid var(--color-border-exp); padding-top: var(--space-md);">
+          <div style="font-family: var(--font-display); font-size: 3rem; color: var(--color-text-dim); line-height: 1;">
+            03</div>
+          <h3
+            style="font-family: var(--font-body); font-size: 1rem; font-weight: 500; color: var(--color-text); margin: var(--space-sm) 0 0.5rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            Fire & Earth</h3>
+          <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.8;">Gather at the rugged iron
+            fire pit as temperatures drop.<br>Simple, profound warmth under the dark canopy.</p>
+        </div>
+
+        <div class="experience-item reveal reveal-delay-1"
+          style="border-top: 1px solid var(--color-border-exp); padding-top: var(--space-md);">
+          <div style="font-family: var(--font-display); font-size: 3rem; color: var(--color-text-dim); line-height: 1;">
+            04</div>
+          <h3
+            style="font-family: var(--font-body); font-size: 1rem; font-weight: 500; color: var(--color-text); margin: var(--space-sm) 0 0.5rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            Absolute Stillness</h3>
+          <p style="font-size: 0.95rem; color: var(--color-text-muted); line-height: 1.8;">No schedules, no
+            itineraries.<br>Simply existing within the quiet isolation of your sanctuary.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section"
+    style="padding: var(--space-3xl) 0; background: var(--color-bg-section);">
+    <div class="container">
+      <div class="reveal" style="text-align: center; margin-bottom: var(--space-2xl);">
+        <div class="section-label">Gallery</div>
+        <h2 class="section-title">Snapshots of serenity</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">Visions of our retreat from above and within, showcasing the
+          lush surrounding nature.</p>
+      </div>
+
+      <div class="swiper gallery-swiper reveal">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery-item"
+            style="position: relative; overflow: hidden; border-radius: var(--radius-md); cursor: pointer; aspect-ratio: 4/3;">
+            <img src="Photos/DJI_20260325101633_0050_D.JPG" alt="Tranquil Cradle drone view A-frame" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-smooth);">
+            <div class="gallery-hover"
+              style="position: absolute; inset: 0; background: rgba(7, 13, 7, 0.4); opacity: 0; transition: opacity var(--transition-fast); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+              <i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="swiper-slide gallery-item"
+            style="position: relative; overflow: hidden; border-radius: var(--radius-md); cursor: pointer; aspect-ratio: 4/3;">
+            <img src="Photos/DJI_20260325101634_0051_D.JPG" alt="Tranquil Cradle property structure" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-smooth);">
+            <div class="gallery-hover"
+              style="position: absolute; inset: 0; background: rgba(7, 13, 7, 0.4); opacity: 0; transition: opacity var(--transition-fast); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+              <i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="swiper-slide gallery-item"
+            style="position: relative; overflow: hidden; border-radius: var(--radius-md); cursor: pointer; aspect-ratio: 4/3;">
+            <img src="Photos/DJI_20260325101635_0052_D.JPG" alt="Gazebo and valley view" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-smooth);">
+            <div class="gallery-hover"
+              style="position: absolute; inset: 0; background: rgba(7, 13, 7, 0.4); opacity: 0; transition: opacity var(--transition-fast); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+              <i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="swiper-slide gallery-item"
+            style="position: relative; overflow: hidden; border-radius: var(--radius-md); cursor: pointer; aspect-ratio: 4/3;">
+            <img src="Photos/DJI_20260325101640_0053_D.JPG" alt="A-frame cabin nestled in dense forest" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-smooth);">
+            <div class="gallery-hover"
+              style="position: absolute; inset: 0; background: rgba(7, 13, 7, 0.4); opacity: 0; transition: opacity var(--transition-fast); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+              <i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="swiper-slide gallery-item"
+            style="position: relative; overflow: hidden; border-radius: var(--radius-md); cursor: pointer; aspect-ratio: 4/3;">
+            <img src="Photos/DJI_20260325101645_0054_D.JPG" alt="Luxury A-frame cabin facade" loading="lazy"
+              style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-smooth);">
+            <div class="gallery-hover"
+              style="position: absolute; inset: 0; background: rgba(7, 13, 7, 0.4); opacity: 0; transition: opacity var(--transition-fast); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+              <i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="padding: var(--space-3xl) 0; background: var(--color-bg-section); text-align: center;">
+    <div class="container" style="max-width: 600px;">
+      <div class="reveal">
+        <div class="section-label" style="justify-content: center; margin-bottom: var(--space-sm);">Connect</div>
+        <h2 class="section-title" style="margin-bottom: var(--space-sm);">Find your quiet</h2>
+        <div
+          style="width: 60px; height: 1px; background: var(--color-accent); margin: var(--space-md) auto var(--space-xl);">
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1" style="margin-bottom: var(--space-xl);">
+        <p
+          style="font-family: var(--font-body); font-size: 1.1rem; color: var(--color-accent); letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+          reservations@thetranquilcradle.com</p>
+        <p style="color: var(--color-text-muted); margin-bottom: 0.25rem;">+91 98765 43210</p>
+        <p style="color: var(--color-text-muted);">Chikkamagaluru, Karnataka, India</p>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <a href="mailto:reservations@thetranquilcradle.com" class="btn btn-primary"
+          style="border-radius: 0; padding: 1.2rem 3rem;">Inquire Availability</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer
+    style="padding: var(--space-xl) 0 var(--space-lg); background: #040804; text-align: center; border-top: 1px solid rgba(77,184,164,0.05); color: var(--color-text-dim); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;">
+    <div class="container">
+      <div class="footer-content"
+        style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-md); margin-bottom: var(--space-lg);">
+        <div class="footer-brand" style="text-align: left;">
+          <div
+            style="font-family: var(--font-display); font-size: 1.1rem; color: var(--color-text); margin-bottom: 0.25rem;">
+            The Tranquil Cradle</div>
+          <div>Luxury Wilderness Eco-Retreat</div>
+        </div>
+
+        <!-- Live Weather Widget -->
+        <div class="weather-widget" id="weather-widget">
+          <div class="weather-loading">Gathering atmospheric data...</div>
+          <div class="weather-data" style="display: none; align-items: center; gap: 1rem;">
+            <div class="weather-item">
+              <i class="fa-solid fa-temperature-half" style="color: var(--color-accent); margin-right: 5px;"></i>
+              <span id="wt-temp">--°C</span>
+            </div>
+            <div class="weather-item">
+              <i class="fa-solid fa-droplet" style="color: var(--color-accent); margin-right: 5px;"></i>
+              <span id="wt-hum">--%</span>
+            </div>
+            <div class="weather-item">
+              <i class="fa-solid fa-mountain" style="color: var(--color-accent); margin-right: 5px;"></i>
+              <span>3,800 FT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p style="border-top: 1px solid rgba(245, 239, 224, 0.05); padding-top: var(--space-md);">&copy; 2026 The Tranquil
+        Cradle. All Rights Reserved. Crafted for Serenity.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox for Gallery -->
+  <div class="lightbox">
+    <button class="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+    <img src="" alt="">
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
